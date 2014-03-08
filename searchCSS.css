@@ -1,0 +1,221 @@
+body {
+    background: linear-gradient(#AAAAAA, #FFFFFF);
+    margin-bottom: 700px;
+    margin-left: 100px;
+}
+
+.MusicSearcher {
+    position: fixed;
+    top: 50%;
+    left: 25%;  
+    
+}
+
+h1 {
+    position: fixed;
+    top: 10%;
+    left: 35%;
+    font-family: arial;
+    font-size: 50px;
+    color: #333333;
+}
+
+footer {
+    position:fixed;
+    bottom: 8%;   
+}
+
+p {
+    position: fixed;
+    bottom: 2px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;  
+}
+
+a {
+    transition-property: all;
+    transition-duration: 0.5s;
+    background-color: grey;
+    text-decoration: none;
+    border-radius: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    box-shadow: 3px 3px #cccccc;
+}
+
+#search {
+    padding: 10px;
+    max-width: 800px;
+    border-radius: 50px;
+    border-color: black;
+    box-shadow: 5px 5px grey;
+    font-size: 30px;
+    font-family: arial;
+    color: #bbbbbb;
+}
+
+#musicButton, #videoButton {
+     transition-property: all;
+    transition-duration: 0.5s;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    border-bottom-width: 2.5px;
+    border-bottom-color: #bbbbbb; 
+    border-right-width: 5px;
+    border-right-color: #bbbbbb;
+}
+
+#musicButton:hover, #videoButton:hover {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px)
+{
+    
+    .MusicSearcher {
+        position: fixed;
+        top: 50%;
+        left: 10%;
+    }
+}
+@media only screen and (min-width: 1070px) and (max-width: 1199px)
+{
+    
+    .MusicSearcher {
+        position: fixed;
+        top: 50%;
+        left: 0%;
+    }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1069px)
+{
+    
+    #search{
+        max-width: 750px;
+        font-size: 150%;
+        position: fixed;
+        top: 50%;
+        left: 5%;
+    }
+    
+    #musicButton {
+        font-size: 150%;
+        position: fixed;
+        top: 50%;
+        left: 77%;
+        
+    }
+    #videoButton {
+        font-size: 150%;
+        position: fixed;
+        top: 50%;
+        left: 88%;
+        
+    }
+}
+@media only screen and (min-width: 920px) and (max-width: 1019px)
+{
+    
+    #search{
+        max-width: 650px;
+        font-size: 125%;
+        position: fixed;
+        top: 50%;
+        left: 2.5%;
+    }
+    
+    #musicButton {
+        font-size: 125%;
+        position: fixed;
+        top: 50%;
+        left: 73%;
+        
+    }
+    #videoButton {
+        font-size: 125%;
+        position: fixed;
+        top: 50%;
+        left: 84%;
+        
+    }
+}
+    
+@media only screen and (min-width: 850px) and (max-width: 919px)
+{
+    
+    #search{
+        max-width: 550px;
+        font-size: 125%;
+        position: fixed;
+        top: 50%;
+        left: 0%;
+    }
+    
+    #musicButton {
+        font-size: 125%;
+        position: fixed;
+        top: 50%;
+        left: 62%;
+        
+    }
+    #videoButton {
+        font-size: 125%;
+        position: fixed;
+        top: 50%;
+        left: 74%;
+        
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 849px)
+{
+    body {
+        margin-left: 0px;
+    }
+     h1 {
+        font-size: 30px;
+    }
+    
+    #search{
+        
+        max-width: 430px;
+        font-size: 100%;
+        position: fixed;
+        top: 50%;
+        left: 0%;
+    }
+    
+    #musicButton {
+        font-size: 125%;
+        position: fixed;
+        top: 50%;
+        left: 62%;
+        
+    }
+    #videoButton {
+        font-size: 125%;
+        position: fixed;
+        top: 50%;
+        left: 77%;
+        
+    }
+}
+    
+
+
+
+
