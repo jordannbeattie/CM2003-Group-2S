@@ -2,7 +2,7 @@ body {
     background: linear-gradient(#FFFFFF, #AAAAAA);
     margin-bottom: 1100px;
     margin-left: 100px;
-	max-width: 1000px;
+    max-width: 1000px;
 }
 
 .Searcher {
@@ -110,7 +110,7 @@ a:hover {
     
     li {
         width: 50%;
-		margin-left: 35%;
+	margin-left: 35%;
     }
     
      h1 {
@@ -118,7 +118,7 @@ a:hover {
         width: 100%;
         top: 10%;
         left: 3%;
-       font-size: 175%;
+        font-size: 175%;
     }
     
 }
@@ -134,15 +134,13 @@ a:hover {
     }
 	
 	li {
-		margin-left: 0%;
+	  margin-left: 0%;
 	}
     
     #search, #musicButton, #videoButton {
         margin-left: 0%;
         width: 75%;
-		font-size: 100%;
-		
-        
+	font-size: 100%;
     }
        
 }
