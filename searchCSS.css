@@ -1,10 +1,11 @@
 body {
     background: linear-gradient(#FFFFFF, #AAAAAA);
-    margin-bottom: 700px;
+    margin-bottom: 1100px;
     margin-left: 100px;
+	max-width: 1000px;
 }
 
-.MusicSearcher {
+.Searcher {
     position: fixed;
     top: 50%;
     left: 25%;  
@@ -51,9 +52,13 @@ a {
     box-shadow: 3px 3px #cccccc;
 }
 
+#SiteLogo {
+    max-width: 25%;
+}
+
 #search {
     padding: 10px;
-    max-width: 800px;
+    width: 60%;
     border-radius: 50px;
     border-color: black;
     box-shadow: 5px 5px grey;
@@ -84,136 +89,65 @@ a:hover {
     color: black;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1440px)
-{
+@media screen and (max-width:900px){
     
-    .MusicSearcher {
-        position: fixed;
-        top: 50%;
-        left: 10%;
+    body, #search, #musicButton, #videoButton {
+        width: 75%;
+    }
+	
+    h1 {
+        display:block;
+        font-size: 200%;
     }
 }
-@media only screen and (min-width: 1070px) and (max-width: 1199px)
-{
+
+@media screen and (max-width:550px){
     
-    .MusicSearcher {
-        position: fixed;
-        top: 50%;
-        left: 0%;
-    }
-}
-@media only screen and (min-width: 1020px) and (max-width: 1069px)
-{
-    
-    #search{
-        max-width: 750px;
-        font-size: 150%;
-        position: fixed;
-        top: 50%;
-        left: 5%;
+    body, #search, #musicButton, #videoButton {
+        margin-left: 10%;
+        width: 75%;
     }
     
-    #musicButton {
-        font-size: 150%;
-        position: fixed;
-        top: 50%;
-        left: 77%;
-        
-    }
-    #videoButton {
-        font-size: 150%;
-        position: fixed;
-        top: 50%;
-        left: 88%;
-        
-    }
-}
-@media only screen and (min-width: 920px) and (max-width: 1019px)
-{
-    
-    #search{
-        max-width: 650px;
-        font-size: 125%;
-        position: fixed;
-        top: 50%;
-        left: 2.5%;
+    li {
+        width: 50%;
+		margin-left: 35%;
     }
     
-    #musicButton {
-        font-size: 125%;
-        position: fixed;
-        top: 50%;
-        left: 73%;
-        
-    }
-    #videoButton {
-        font-size: 125%;
-        position: fixed;
-        top: 50%;
-        left: 84%;
-        
-    }
-}
-    
-@media only screen and (min-width: 850px) and (max-width: 919px)
-{
-    
-    #search{
-        max-width: 550px;
-        font-size: 125%;
-        position: fixed;
-        top: 50%;
-        left: 0%;
-    }
-    
-    #musicButton {
-        font-size: 125%;
-        position: fixed;
-        top: 50%;
-        left: 62%;
-        
-    }
-    #videoButton {
-        font-size: 125%;
-        position: fixed;
-        top: 50%;
-        left: 74%;
-        
-    }
-}
-@media only screen and (min-width: 500px) and (max-width: 849px)
-{
-    body {
-        margin-left: 0px;
-    }
      h1 {
-        font-size: 30px;
+        position: fixed;
+        width: 100%;
+        top: 10%;
+        left: 3%;
+       font-size: 175%;
     }
     
-    #search{
-        
-        max-width: 430px;
-        font-size: 100%;
-        position: fixed;
-        top: 50%;
-        left: 0%;
-    }
-    
-    #musicButton {
-        font-size: 125%;
-        position: fixed;
-        top: 50%;
-        left: 62%;
-        
-    }
-    #videoButton {
-        font-size: 125%;
-        position: fixed;
-        top: 50%;
-        left: 77%;
-        
-    }
 }
+
+@media screen and (max-width:300px){
+    
+    h1 {
+        position: fixed;
+        width: 100%;
+        top: 10%;
+        left: 3%;
+       font-size: 125%;
+    }
+	
+	li {
+		margin-left: 0%;
+	}
+    
+    #search, #musicButton, #videoButton {
+        margin-left: 0%;
+        width: 75%;
+		font-size: 100%;
+		
+        
+    }
+       
+}
+
+
     
 
 
