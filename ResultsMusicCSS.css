@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(#FFFFFF, #AAAAAA);
+    margin-bottom: 700px;
+
+}
+h1 {
+    top: 10%;
+    left: 35%;
+    font-family: arial;
+    font-size: 50px;
+    color: #333333;
+}
+.MusicDisplay{
+
+	margin-top:10%;
+
+}
