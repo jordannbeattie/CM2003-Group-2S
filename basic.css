@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(#FFFFFF, #AAAAAA);
+    margin-bottom: 978.5px;
+    margin-left: 100px;
+}
+
+h1 {
+    position: fixed;
+    top: 10%;
+    left: 35%;
+    font-family: arial;
+    font-size: 50px;
+    color: #333333;
+}
+
+footer {
+    position:fixed;
+    bottom: 8%;   
+}
+ 
+#WhatToPut{
+    position: fixed;
+    font-family: arial;
+    font-size: 20px;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;  
+}
+
+a {
+    transition-property: all;
+    transition-duration: 0.5s;
+    background-color: grey;
+    text-decoration: none;
+    border-radius: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    box-shadow: 3px 3px #cccccc;
+}
+
+#content{
+	margin-top: 200px;
+	position: fixed;
+}
+
+#Shpiel{
+	
+}
+
+
+    
+
+
+
+
