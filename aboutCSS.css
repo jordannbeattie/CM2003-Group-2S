@@ -7,9 +7,9 @@ body {
 h1 {
     position: fixed;
     top: 10%;
-    left: 35%;
+    left: 45%;
     font-family: arial;
-    font-size: 50px;
+    font-size: 300%;
     color: #333333;
 }
 
@@ -18,10 +18,15 @@ footer {
     bottom: 8%;   
 }
  
-#WhatToPut{
+#description{
     position: fixed;
+	left: 15%;
     font-family: arial;
-    font-size: 20px;
+    font-size: 150%;
+}
+
+#about {
+	color:black;
 }
 
 ul {
@@ -39,8 +44,7 @@ a {
     padding-left: 30px;
     color: white;
     font-family: arial;
-    font-size: 30px;
-    box-shadow: 3px 3px #cccccc;
+    font-size: 30px; 
 }
 
 #content{
@@ -48,7 +52,51 @@ a {
 	position: fixed;
 }
 
-#Shpiel{
+a:hover {
+	color: black;
+}
+
+
+@media screen and (max-width:800px){
+    
+   #description {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width:550px){
+    
+    #content {
+        font-size: 80%;
+    }
+	li {
+	    position: fixed;
+		left: 0%;
+		top: 85%; 
+    }
+	
+	a {
+		font-size: 150%;
+	}
+	
+	h1 {
+		font-size: 150%;
+	}
+		
+}
+
+@media screen and (max-width:350px){
+    li {
+		font-size: 50%;
+		position: fixed;
+		left: 0%;
+		top: 80%;
+	}
+	
+	h1 {
+		font-size: 100%;
+	}
+
 	
 }
 
