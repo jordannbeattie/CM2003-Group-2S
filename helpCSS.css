@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(#FFFFFF, #AAAAAA);
-    margin-bottom: 978.5px;
+    margin-bottom: 1100px;
     margin-left: 100px;
 }
 
@@ -70,9 +70,14 @@ a:hover {
         font-size: 100%;
     }
 	li {
-        width: 50%;
-		margin-left: 25%;
+	position: fixed;
+		left: 10%;
+top: 90%;		
     }
+	
+	a {
+		font-size: 150%;
+	}
 	
 	h1 {
 		font-size: 150%;
@@ -80,31 +85,41 @@ a:hover {
 		
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:450px){
     li {
 		font-size: 50%;
+		width: 50%;
 		position: fixed;
-		left: 0%;
+		left: 20%;
 		top: 80%;
 	}
-
 	
+	a {
+		font-size: 300%;
+	}	
 }
 
 @media screen and (max-width:200px){
     
     #content {
-        font-size: 50%;
+        font-size: 75%;
     }
 	h1 {
 		font-size: 100%;
 		position: fixed;
-		left: 30%;
+		left: 40%;
 		
 	}	
 	
+	li {
+		position: fixed;
+		left: 10%;
+		top: 80%;
+	}
+	
 	a {
-		font-size: 150%;
+		font-size: 300%;
+		
 	}
 }
 
