@@ -49,7 +49,6 @@ a {
     color: white;
     font-family: arial;
     font-size: 30px;
-    box-shadow: 3px 3px #cccccc;
 }
 
 #SiteLogo {
@@ -75,10 +74,8 @@ a {
     color: white;
     background-color: grey;
     border-radius: 5px;
-    border-bottom-width: 2.5px;
-    border-bottom-color: #bbbbbb; 
-    border-right-width: 5px;
-    border-right-color: #bbbbbb;
+	border-color: #bbbbbb;
+	border-right-width: 5px;
 }
 
 #musicButton:hover, #videoButton:hover {
@@ -89,28 +86,33 @@ a:hover {
     color: black;
 }
 
-@media screen and (max-width:900px){
+#home {
+	color: black;
+}
+
+@media screen and (max-width:1000px){
     
-    body, #search, #musicButton, #videoButton {
-        width: 75%;
+    body, #search, #musicButton, #videoButton  {
+		font-size: 100%;		
     }
 	
-    h1 {
-        display:block;
+    h1 {       
         font-size: 200%;
     }
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:800px){
     
-    body, #search, #musicButton, #videoButton {
-        margin-left: 10%;
-        width: 75%;
-    }
-    
-    li {
+    body, #search{
         width: 50%;
-	margin-left: 35%;
+    }
+	
+	#musicButton, #videoButton  {
+		font-size: 75%;
+	}
+    
+    a{
+     font-size: 150%;
     }
     
      h1 {
@@ -123,25 +125,34 @@ a:hover {
     
 }
 
-@media screen and (max-width:300px){
+@media screen and (max-width:600px){
     
-    h1 {
-        position: fixed;
-        width: 100%;
-        top: 10%;
-        left: 3%;
-       font-size: 125%;
+	#search, #musicButton, #videoButton, li  {
+		width: 50%;		
     }
 	
-	li {
-	  margin-left: 0%;
-	}
+    h1 {       
+        font-size: 150%;
+    }       
+}
+
+@media screen and (max-width:250px){
     
-    #search, #musicButton, #videoButton {
-        margin-left: 0%;
-        width: 75%;
-	font-size: 100%;
+	h1 {
+		font-size: 100%;
+	}
+    li {       
+        position: fixed;
+		left: 10%;
+		top: 80%;
+		font-size: 75%;
     }
+	#footer  {
+		position: fixed;
+		left: 10%;
+		top: 95%;
+		font-size: 100%;
+	}
        
 }
 
