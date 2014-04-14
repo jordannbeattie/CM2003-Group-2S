@@ -1,9 +1,10 @@
 body {
-    background: linear-gradient(#FFFFFF, #AAAAAA);
-    margin-bottom: 1100px;
+    background: #d3d3d3;
+    height: 1100px;
     margin-left: 100px;
-    max-width: 1000px;
 }
+
+
 
 .Searcher {
     position: fixed;
@@ -99,6 +100,10 @@ a:hover {
     h1 {       
         font-size: 200%;
     }
+	
+	img {
+		max-width: 20%;
+	}
 }
 
 @media screen and (max-width:800px){
@@ -127,13 +132,24 @@ a:hover {
 
 @media screen and (max-width:600px){
     
-	#search, #musicButton, #videoButton, li  {
+	#search, #musicButton, #videoButton  {
 		width: 50%;		
     }
 	
     h1 {       
         font-size: 150%;
-    }       
+    }  
+    
+    body {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:400px){
+ li {
+    width: 50%;
+ }   
+    
 }
 
 @media screen and (max-width:250px){
@@ -153,6 +169,8 @@ a:hover {
 		top: 95%;
 		font-size: 100%;
 	}
+    
+    
        
 }
 
