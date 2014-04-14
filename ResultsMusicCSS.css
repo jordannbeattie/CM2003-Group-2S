@@ -20,7 +20,7 @@ h1 {
 }
 
 ul {
-	margin-left: 100px;
+    margin-left: 100px;
     padding-left: 0px;
     list-style: none;  
 }
@@ -44,7 +44,7 @@ a {
 
 footer {
     bottom: 8%;
-	font-family: arial;	
+    font-family: arial;	
 }
 
 a:hover {
