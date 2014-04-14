@@ -1,17 +1,117 @@
 body {
-    background: linear-gradient(#FFFFFF, #AAAAAA);
-    margin-bottom: 700px;
-
+    background: #d3d3d3;
+	margin-left: 100px;
+	height: 1100px;
 }
 h1 {
-    top: 10%;
-    left: 35%;
+position: absolute;
+	top: 0%;
+    left: 40%;
     font-family: arial;
     font-size: 50px;
     color: #333333;
 }
-.MusicDisplay{
 
-	margin-top:10%;
+#frame1 {
+	position: absolute;
+	top: 10%;
+	left: 35%;
+}
 
+#frame2 {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+
+#frame3 {
+	position: absolute;
+	top: 70%;
+	left: 35%;
+}
+
+footer {
+	position: absolute;
+	top: 90%;
+	left: 5%;
+}
+ul {
+    padding-left: 0px;
+    list-style: none;  
+}
+
+#footer {
+	font-size: 20px;
+}
+
+a {
+    transition-property: all;
+    transition-duration: 0.5s;
+    background-color: grey;
+    text-decoration: none;
+    border-radius: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+}
+
+footer {
+    bottom: 8%;
+	font-family: arial;	
+}
+
+a:hover {
+    color: black;
+}
+
+@media screen and (max-width:1600px){
+
+	a {
+		font-size: 150%;
+	}
+}
+
+@media screen and (max-width:1250px){
+	li {
+		width: 50%;
+	}
+	a {
+		font-size: 150%;
+	}
+}
+
+@media screen and (max-width:900px){
+	h1 {
+		font-size: 150%;
+	}
+	
+	#frame1, #frame2, #frame3{
+		width: 50%;
+	}
+	
+}
+
+@media screen and (max-width:400px){
+
+	img {
+		position: absolute;
+		height: 40px;
+		left: 0%;
+	}
+	li {
+		width: 50%;
+	}
+	a {
+		font-size: 75%;
+	}
+	
+	h1 {
+		font-size: 100%;
+	}
+	
+	#footer {
+		font-size: 50%;
+	}
 }
