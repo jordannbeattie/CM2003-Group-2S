@@ -2,30 +2,27 @@
 <html>
     
     <head>
-        <title>Search</title>
+        <title>SoundTube</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
         <link rel="stylesheet" href="searchCSS.css" type="text/css" />
-		<script>
-			function clearSearch(el) {
-				if (el.defaultValue==el.value) {
-				el.value = "";
-				}
-		}
-		</script>
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="searchJS.js"></script>
     </head>
+	
+	<img src="soccer-ball.jpg" style="position:absolute;left:0px;top:0px;" id="ball1""/> 
     
     <body>
         <header id="PageHeader">
-            <img src="Magnifying_glass.png" id="SiteLogo"/>
-            <h1><center>Welcome to Search</center></h1>
+            <img src="Soundcloud_logo1.png" id="SiteLogo"/>
+            <h1><center>Welcome to SoundTube</center></h1>
         </header>
         
         <section class="PageContent">
             <div class="Searcher">
-                <input type="search" name="musicSearch" size="100px" id="search" value="Drag item into here..." ONFOCUS="clearSearch(this)">
-                <input type="submit" name="music" value="Music" id="musicButton">
-                <input type="submit" name="video" value="Video" id="videoButton">
+                <input type="search" name="musicSearch" size="100px" id="search" value="Select genre to begin..." disabled="disabled">
+                <input type="submit" name="music" value="Music" id="musicButton" onclick="window.location='ResultsMusic.html';">
+                <input type="submit" name="video" value="Video" id="videoButton" onclick="window.location='ResultsVideo.html';">
             </div>
         </section>
         
@@ -37,7 +34,7 @@
                     <a href="Help.html">Help</a>                 
                 </li>
             </ul>
-            <p id="footer">© Search</p>
+            <p id="footer">© SoundTube</p>
         </footer>
     </body>
     
