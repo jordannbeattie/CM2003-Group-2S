@@ -1,8 +1,10 @@
 body {
-    background: linear-gradient(#FFFFFF, #AAAAAA);
-    margin-bottom: 1100px;
+    background: #d3d3d3;
+    height: 1100px;
     margin-left: 100px;
 }
+
+
 
 h1 {
     position: fixed;
@@ -15,7 +17,8 @@ h1 {
 
 footer {
     position:fixed;
-    bottom: 8%;   
+    bottom: 8%;  
+	font-family: arial;
 }
  
 #content{
@@ -28,6 +31,10 @@ footer {
 
 #help {
 	color:black;
+}
+
+#footer {
+	font-size: 20px;
 }
 
 ul {
@@ -57,69 +64,51 @@ a:hover {
 	color: black;
 }
 
-@media screen and (max-width:800px){
+
+@media screen and (max-width:560px){
     
     #content {
         font-size: 125%;
     }
-}
-
-@media screen and (max-width:550px){
-    
-    #content {
-        font-size: 100%;
-    }
-	li {
-	position: fixed;
-		left: 10%;
-top: 90%;		
-    }
-	
 	a {
 		font-size: 150%;
-	}
+    }
 	
 	h1 {
-		font-size: 150%;
+		font-size: 175%;
+	}
+	
+	footer {
+		left: 10%;
 	}
 		
 }
 
 @media screen and (max-width:450px){
     li {
-		font-size: 50%;
 		width: 50%;
-		position: fixed;
-		left: 20%;
-		top: 80%;
-	}
-	
-	a {
-		font-size: 300%;
-	}	
-}
-
-@media screen and (max-width:200px){
-    
-    #content {
-        font-size: 75%;
-    }
-	h1 {
-		font-size: 100%;
-		position: fixed;
-		left: 40%;
-		
-	}	
-	
-	li {
 		position: fixed;
 		left: 10%;
 		top: 80%;
 	}
+
+	
+}
+
+@media screen and (max-width:300px){
+    
+    #content {
+        font-size: 100%;
+    }
+	h1 {
+		font-size: 100%;
+		position: fixed;
+		left: 30%;
+		
+	}	
 	
 	a {
-		font-size: 300%;
-		
+		font-size: 150%;
 	}
 }
 
