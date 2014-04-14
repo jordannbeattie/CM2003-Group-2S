@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(#FFFFFF, #AAAAAA);
-    margin-bottom: 1100px;
+    background: #d3d3d3;
+    height: 1100px;
     margin-left: 100px;
 }
 
@@ -15,18 +15,24 @@ h1 {
 
 footer {
     position:fixed;
-    bottom: 8%;   
+    bottom: 8%;
+	font-family: arial;	
 }
  
-#description{
+#content{
     position: fixed;
-	left: 15%;
+	left: 22.5%;
     font-family: arial;
     font-size: 150%;
+	max-width: 55%;
 }
 
 #about {
 	color:black;
+}
+
+#footer {
+	font-size: 20px;
 }
 
 ul {
@@ -57,21 +63,12 @@ a:hover {
 }
 
 
-@media screen and (max-width:800px){
-    
-   #description {
-        font-size: 100%;
-    }
-}
-
 @media screen and (max-width:550px){
     
-    #content {
-        font-size: 80%;
-    }
+   
 	li {
 	    position: fixed;
-		left: 0%;
+		left: 10%;
 		top: 85%; 
     }
 	
@@ -82,19 +79,30 @@ a:hover {
 	h1 {
 		font-size: 150%;
 	}
-		
+	
+	footer , p{
+		left: 10%;
+	}	
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:450px){
     li {
-		font-size: 50%;
+		width: 50%;
 		position: fixed;
-		left: 0%;
+		left: 10%;
 		top: 80%;
+	}
+	
+	#content {
+		font-size: 100%;
 	}
 	
 	h1 {
 		font-size: 100%;
+	}
+	
+	footer , p{
+		left: 10%;
 	}
 
 	
